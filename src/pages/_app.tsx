@@ -16,7 +16,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider theme={theme}>
 
-      <Flex  w="100%" h="28" position="relative" justify="center" align="center">
+      <Flex as="header" w="100%" h="20" position="relative" justify="center" align="center">
         { !isHomePage && (
           <Link href="/" passHref>
             <ChakraLink>
