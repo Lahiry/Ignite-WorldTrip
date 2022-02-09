@@ -1,0 +1,34 @@
+{
+  "continents": [
+    {
+      "name": "Europa",
+      "description": "O continente mais antigo.",
+      "backgroundImage": "/images/europe.jpg"
+    },
+    {
+      "name": "América do Norte",
+      "description": "Grandes cidades e culinária incrível.",
+      "backgroundImage": "/images/northamerica.jpg"
+    },
+    {
+      "name": "América do Sul",
+      "description": "Belas praias e natureza.",
+      "backgroundImage": "/images/southamerica.jpg"
+    },
+    {
+      "name": "Ásia",
+      "description": "Grande e magnífica.",
+      "backgroundImage": "/images/asia.jpg"
+    },
+    {
+      "name": "Oceania",
+      "description": "Vida selvagem e belas atrações.",
+      "backgroundImage": "/images/oceania.jpg"
+    },
+    {
+      "name": "África",
+      "description": "Cultura e paisagens.",
+      "backgroundImage": "/images/africa.jpg"
+    }
+  ]
+}

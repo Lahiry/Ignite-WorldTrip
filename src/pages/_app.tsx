@@ -4,6 +4,11 @@ import { theme } from '../styles/theme'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
+import "swiper/scss";
+import "swiper/css/navigation";
+import "swiper/scss/pagination";
+import "../styles/swiper.scss"
+
 function MyApp({ Component, pageProps }: AppProps) {
   const { asPath } = useRouter()
 
@@ -26,8 +31,6 @@ function MyApp({ Component, pageProps }: AppProps) {
         )}
         <Image src="images/logo.svg" alt="Logo" />
       </Flex>
-
-
       <Component {...pageProps} />
     </ChakraProvider>
   )

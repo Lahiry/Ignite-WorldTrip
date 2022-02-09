@@ -1,13 +1,22 @@
-import { Box, Divider, Flex, Grid, GridItem, Heading, HStack, Image, Text, VStack } from "@chakra-ui/react";
-import Link from "next/link";
-import { useRouter } from "next/router";
+import { Box, Flex, Grid, GridItem, Heading, Image, Text, VStack } from "@chakra-ui/react";
+import {Swiper, SwiperSlide} from "swiper/react";
+import { Navigation, Pagination } from "swiper";
+import { api } from "../services/api";
 
-export default function Home() {
-  
+interface ContinentData {
+  name: string;
+  description: string;
+  backgroundImage: string;
+}
 
+interface HomeProps {
+  continents: ContinentData[]
+}
+
+export default function Home({ continents }: HomeProps) {
   return (
     <Flex flexDir="column" align="center">
-      <Flex maxHeight="md" w="100%" px="56" justify="space-between" align="center" bgImage="images/background.svg" bgSize="cover">
+      <Flex maxHeight="md" w="100%" px="56" justify="space-between" align="center" bgImage="images/background.svg" bgSize="cover" bgPosition="center">
         <Box>
           <Heading lineHeight="auto" color="gray.50" fontSize="5xl" fontWeight="500">
             5 Continentes,<br />infinitas possibilidades.
@@ -62,6 +71,45 @@ export default function Home() {
       <Heading textAlign="center" lineHeight="auto" color="gray.600" fontSize="5xl" fontWeight="500">
         Vamos nessa?<br />Então escolha seu continente
       </Heading>
+
+      <Flex w="90%" h="xl" my="20">
+        <Swiper navigation={true} pagination={{ clickable: true }} modules={[Navigation, Pagination]}>
+          {continents.map(continent => (
+            <SwiperSlide>
+              <Flex
+                w="100%"
+                h="100%"
+                // position="relative"
+                flexDir="column"
+                justify="center"
+                align="center"
+                fontWeight="700"
+                bgImage={`linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(${continent.backgroundImage})`}
+                bgSize="cover"
+                bgPosition="center"
+                 
+              >
+                <Heading fontSize="5xl" color="gray.50">{continent.name}</Heading>
+                <Text mt="6" fontSize="2xl" color="gray.100">{continent.description}</Text>
+              </Flex>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </Flex>
+
+     
     </Flex>
   )
+}
+
+export const getStaticProps = async () => {
+  const response = await api.get("/continents")
+
+  const continents = response.data
+
+  return {
+    props: {
+      continents
+    }
+  }
 }
