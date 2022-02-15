@@ -25,11 +25,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         { !isHomePage && (
           <Link href="/" passHref>
             <ChakraLink>
-              <Image src="images/back.svg" alt="Voltar" position="absolute" left="36" />
+              <Image src="/images/back.svg" alt="Voltar" position="absolute" bottom="6" left="36" />
             </ChakraLink>
           </Link>
         )}
-        <Image src="images/logo.svg" alt="Logo" />
+        <Image src="/images/logo.svg" alt="Logo" />
       </Flex>
       <Component {...pageProps} />
     </ChakraProvider>

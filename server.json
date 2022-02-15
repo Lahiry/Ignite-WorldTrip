@@ -1,34 +1,194 @@
 {
   "continents": [
     {
+      "id": "eu",
       "name": "Europa",
       "description": "O continente mais antigo.",
-      "backgroundImage": "/images/europe.jpg"
+      "text": "A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste.",
+      "numberOfCountries": 50,
+      "numberOfLanguages": 24,
+      "numberOfCities": 27,
+      "swiperImage": "https://images.unsplash.com/photo-1491557345352-5929e343eb89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1473951574080-01fe45ec8643?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1379&q=80",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Reino Unido",
+          "flag": "https://cdn.countryflags.com/thumbs/united-kingdom/flag-square-250.png",
+          "capital": "Londres",
+          "image": "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80"
+        },
+        {
+          "id": 2,
+          "name": "França",
+          "flag": "https://cdn.countryflags.com/thumbs/france/flag-square-250.png",
+          "capital": "Paris",
+          "image": "https://images.unsplash.com/photo-1549144511-f099e773c147?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80"
+        },
+        {
+          "id": 3,
+          "name": "Itália",
+          "flag": "https://cdn.countryflags.com/thumbs/italy/flag-square-250.png",
+          "capital": "Roma",
+          "image": "https://images.unsplash.com/photo-1531572753322-ad063cecc140?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=755&q=80"
+        },
+        {
+          "id": 4,
+          "name": "República Tcheca",
+          "flag": "https://cdn.countryflags.com/thumbs/czech-republic/flag-square-250.png",
+          "capital": "Praga",
+          "image": "https://images.unsplash.com/photo-1592906209472-a36b1f3782ef?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Holanda",
+          "flag": "https://cdn.countryflags.com/thumbs/netherlands/flag-square-250.png",
+          "capital": "Amsterdã",
+          "image": "https://images.unsplash.com/photo-1594759876531-d12b5e9e2453?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=753&q=80"
+        },
+        {
+          "id": 5,
+          "name": "Portugal",
+          "flag": "https://cdn.countryflags.com/thumbs/portugal/flag-square-250.png",
+          "capital": "Lisboa",
+          "image": "https://images.unsplash.com/photo-1580323956656-26bbb1206e34?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=865&q=80"
+        }
+      ]
     },
     {
-      "name": "América do Norte",
-      "description": "Grandes cidades e culinária incrível.",
-      "backgroundImage": "/images/northamerica.jpg"
+      "id": "af",
+      "name": "África",
+      "description": "Conheça um continente cheio de cultura.",
+      "text": "África é um dos seis continentes do mundo, sendo o terceiro maior em extensão territorial. O território estende-se por mais de 30 milhões de km2, ocupando, aproximadamente, 20% da área continental da Terra. No continente vivem mais de um bilhão de habitantes, fazendo dele o segundo mais populoso entre os demais.",
+      "numberOfCountries": 54,
+      "numberOfLanguages": 2000,
+      "numberOfCities": 27,
+      "swiperImage": "https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGFmcmljYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+      "bannerImage": "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=751&q=80",
+      "countries": [
+        {
+          "id": 1,
+          "name": "África do Sul",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197562.svg?token=exp=1617570566~hmac=4f2ef416f1bdcb7a518a066e3f1e1823",
+          "capital": "Joanesburgo",
+          "image": "https://images.unsplash.com/photo-1577948000111-9c970dfe3743?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80"
+        },
+        {
+          "id": 1,
+          "name": "Angola",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197513.svg?token=exp=1617570687~hmac=b0d8ef0d1147471c9e4e57577cafb7d0",
+          "capital": "Luanda",
+          "image": "https://images.unsplash.com/photo-1489493887464-892be6d1daae?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=748&q=80"
+        }
+      ]
     },
     {
-      "name": "América do Sul",
-      "description": "Belas praias e natureza.",
-      "backgroundImage": "/images/southamerica.jpg"
-    },
-    {
+      "id": "as",
       "name": "Ásia",
       "description": "Grande e magnífica.",
-      "backgroundImage": "/images/asia.jpg"
+      "text": "A Ásia é o maior continente em área terrestre do mundo, estando boa parte do continente localizado no Hemisfério Norte. Além de ser o mais extenso, é também o mais populoso, habitando nele cerca de três quintos da população mundial. A Ásia é multicultural, abrigando diversas culturas, etnias, religiões e tradições.",
+      "numberOfCountries": 50,
+      "numberOfLanguages": 2301,
+      "numberOfCities": 27,
+      "swiperImage": "https://images.unsplash.com/photo-1464817739973-0128fe77aaa1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1441839438427-ad31d742a202?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1494&q=80",
+      "countries": [
+        {
+          "id": 1,
+          "name": "China",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197375.svg?token=exp=1617571828~hmac=511d7f2a91c8b3d1b031e0db7cde9aeb",
+          "capital": "Xangai",
+          "image": "https://images.unsplash.com/photo-1474181487882-5abf3f0ba6c2?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Japão",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197604.svg?token=exp=1617571797~hmac=694ab94d92680500b2dfe443be5034c7",
+          "capital": "Tóquio",
+          "image": "https://images.unsplash.com/photo-1551641506-ee5bf4cb45f1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=762&q=80"
+        }
+      ]
     },
     {
+      "id": "na",
+      "name": "América do Norte",
+      "description": "Grandes cidades e culinária incrível.",
+      "text": "América é o maior continente em extensão norte–sul localizado no Hemisfério Ocidental e compreende uma área total de 42.189.120 km2. O continente é habitado por cerca de 902.892.047 pessoas, e nele são faladas diversas línguas, como espanhol, inglês, português, francês, neerlandês e línguas nativas.",
+      "numberOfCountries": 35,
+      "numberOfLanguages": 1061,
+      "numberOfCities": 27,
+      "swiperImage": "https://images.unsplash.com/photo-1587223075055-82e9a937ddff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1534126874-5f6762c6181b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=915&q=80",
+      "countries": [
+        {
+          "id": 1,
+          "name": "EUA",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197484.svg?token=exp=1617572885~hmac=d4baa61df786d96af6e098f087ffb554",
+          "capital": "Washington, D.C",
+          "image": "https://images.unsplash.com/photo-1501466044931-62695aada8e9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=678&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Canadá",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197430.svg?token=exp=1617572971~hmac=80be3adb4949fd6e4acdfaa8db4fd558",
+          "capital": "Ottawa",
+          "image": "https://images.unsplash.com/photo-1569681157442-5eabf7fe850e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80"
+        }
+      ]
+    },
+    {
+      "id": "sa",
+      "name": "América do Sul",
+      "description": "Belas praias e natureza exuberante.",
+      "text": "América é o maior continente em extensão norte–sul localizado no Hemisfério Ocidental e compreende uma área total de 42.189.120 km2. O continente é habitado por cerca de 902.892.047 pessoas, e nele são faladas diversas línguas, como espanhol, inglês, português, francês, neerlandês e línguas nativas.",
+      "numberOfCountries": 35,
+      "numberOfLanguages": 1061,
+      "numberOfCities": 27,
+      "swiperImage": "https://images.unsplash.com/photo-1551312183-66bca7944e4e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1534126874-5f6762c6181b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=915&q=80",
+      "countries": [
+        {
+          "id": 1,
+          "name": "EUA",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197484.svg?token=exp=1617572885~hmac=d4baa61df786d96af6e098f087ffb554",
+          "capital": "Washington, D.C",
+          "image": "https://images.unsplash.com/photo-1501466044931-62695aada8e9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=678&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Canadá",
+          "flag": "https://www.flaticon.com/svg/vstatic/svg/197/197430.svg?token=exp=1617572971~hmac=80be3adb4949fd6e4acdfaa8db4fd558",
+          "capital": "Ottawa",
+          "image": "https://images.unsplash.com/photo-1569681157442-5eabf7fe850e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=752&q=80"
+        }
+      ]
+    },
+    {
+      "id": "oce",
       "name": "Oceania",
       "description": "Vida selvagem e belas atrações.",
-      "backgroundImage": "/images/oceania.jpg"
-    },
-    {
-      "name": "África",
-      "description": "Cultura e paisagens.",
-      "backgroundImage": "/images/africa.jpg"
+      "text": "A Oceania é o continente mais isolado do mundo, sua barreira geográfica fez com que fosse o último a ser descoberto pelos europeus. Em razão desse atraso em seu descobrimento ficou conhecido como mundo novo.",
+      "numberOfCountries": 14,
+      "numberOfLanguages": 19,
+      "numberOfCities": 27,
+      "swiperImage": "https://images.unsplash.com/photo-1589685523979-6544ec36b055?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+      "bannerImage": "https://images.unsplash.com/photo-1484007880226-8849602bb447?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1036&q=80",
+      "countries": [
+        {
+          "id": 1,
+          "name": "Austrália",
+          "flag": "https://cdn.countryflags.com/thumbs/australia/flag-square-250.png",
+          "capital": "Sidney",
+          "image": "https://images.unsplash.com/photo-1524820197278-540916411e20?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=772&q=80"
+        },
+        {
+          "id": 2,
+          "name": "Nova Zelândia",
+          "flag": "https://cdn.countryflags.com/thumbs/new-zealand/flag-square-250.png",
+          "capital": "Wellington",
+          "image": "https://images.unsplash.com/photo-1574751743509-d3b94e447a1e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=669&q=80"
+        }
+      ]
     }
   ]
 }
