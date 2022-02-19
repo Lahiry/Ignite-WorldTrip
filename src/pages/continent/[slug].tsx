@@ -2,7 +2,7 @@ import { Box, Flex, Heading, HStack, Image, SimpleGrid, Stack, Text, VStack } fr
 import { GetStaticPaths, GetStaticProps } from "next";
 import { ContinentBanner } from "../../components/ContinentBanner";
 import { ContinentInfo } from "../../components/ContinentInfo";
-import { Countries } from "../../components/Countries";
+import { Cities } from "../../components/Cities";
 import { api } from "../../services/api";
 
 interface Country {
@@ -32,13 +32,13 @@ export default function Continent({ continent }: ContinentProps) {
     <Flex flexDir="column" align="center">
       <ContinentBanner continentImage={continent.bannerImage} continentName={continent.name} />
 
-      <Box maxW={1600}>
+      <Box maxW={{base: 1000, '2xl': 1600}}>
         
         <ContinentInfo text={continent.text} numberOfCountries={continent.numberOfCountries} numberOfLanguages={continent.numberOfLanguages} numberOfCities={continent.numberOfCities} />
 
-        <Heading mt="20" fontSize="5xl" fontWeight="500">Cidades +100</Heading>
+        <Heading mt="20" fontSize={{base: "4xl", '2xl': "5xl"}} fontWeight="500">Cidades +100</Heading>
 
-        <Countries countries={continent.countries} />
+        <Cities countries={continent.countries} />
         
       </Box>
     </Flex>

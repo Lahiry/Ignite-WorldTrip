@@ -7,11 +7,11 @@ interface Country {
   flag: string;
 }
 
-interface CountriesProps {
+interface CitiesProps {
   countries: Country[];
 }
 
-export function Countries({ countries }: CountriesProps) {
+export function Cities({ countries }: CitiesProps) {
   return (
     <SimpleGrid columns={4} spacing={5}>
       {countries.map(country => (

@@ -24,9 +24,9 @@ export default function Home({ continents }: HomeProps) {
 
       <Activities />
       
-      <Box h="2px" w="24" my="20" bg="gray.600" />
+      <Box h="2px" w={{base: "16", '2xl': "24"}} my={{base: "16", '2xl': "20"}} bg="gray.600" />
       
-      <Heading textAlign="center" lineHeight="auto" color="gray.600" fontSize="4xl" fontWeight="500">
+      <Heading textAlign="center" lineHeight="auto" color="gray.600" fontSize={{base: "3xl", '2xl': "4xl"}} fontWeight="500">
         Vamos nessa?<br />Então escolha seu continente
       </Heading>
 

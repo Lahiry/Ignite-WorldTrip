@@ -16,7 +16,7 @@ interface SlidesProps {
 
 export function Slides({ continents }: SlidesProps) {
   return (
-    <Flex w="90%" h="xl" my="20">
+    <Flex w="90%" h={{base: "sm", '2xl': "lg"}} my={{base: "16", '2xl': "20"}}>
       <Swiper navigation={true} pagination={{ clickable: true }} modules={[Navigation, Pagination]}>
         {continents.map(continent => (
           <SwiperSlide key={continent.id}>
@@ -33,8 +33,8 @@ export function Slides({ continents }: SlidesProps) {
                   bgSize="cover"
                   bgPosition="center"
                 >
-                  <Heading fontSize="4xl" color="gray.50">{continent.name}</Heading>
-                  <Text mt="6" fontSize="2xl" color="gray.100">{continent.description}</Text>
+                  <Heading fontSize={{base: "3xl", '2xl': "4xl"}} color="gray.50">{continent.name}</Heading>
+                  <Text mt="6" fontSize={{base: "xl", '2xl': "2xl"}} color="gray.100">{continent.description}</Text>
                 </Flex>
               </ChakraLink>
             </Link>
